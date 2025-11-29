@@ -27,8 +27,7 @@ def send_event(terminal_id: str):
 
 
 if __name__ == "__main__":
-    # Simulate a terminal sending 5 events
     terminal_id = "T-DELHI-001"
     for i in range(5):
         send_event(terminal_id)
-        time.sleep(1)  # small delay between events
+        time.sleep(1)
